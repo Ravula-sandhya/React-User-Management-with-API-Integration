@@ -1,0 +1,21 @@
+import React from "react";
+
+const UserModal = ({ user, onClose }) => {
+  return (
+    <div className="modal-overlay">
+      <div className="modal">
+        <h2>{user.name}</h2>
+        <p><strong>Username:</strong> {user.username}</p>
+        <p><strong>Email:</strong> {user.email}</p>
+        <p><strong>Phone:</strong> {user.phone}</p>
+        <p><strong>Website:</strong> {user.website}</p>
+        <p><strong>Company:</strong> {user.company.name}</p>
+        <p><strong>Address:</strong> {user.address.street}, {user.address.city}</p>
+
+        <button onClick={onClose}>Close</button>
+      </div>
+    </div>
+  );
+};
+
+export default UserModal;
