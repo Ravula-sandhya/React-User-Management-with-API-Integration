@@ -1,33 +1,44 @@
-# React + Vite
+# React User Management with API Integration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Live Demo
+🔗 https://react-user-management-with-api-inte.vercel.app/
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Project Overview
 
-## React Compiler
+This is a React-based User Management application built using Vite.
+The app fetches user data from an API and provides search, sorting, pagination, and modal features.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features Implemented
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fetch users from API
+- Display users in table format
+- Search functionality
+- Sorting (ascending & descending)
+- Pagination
+- User details in modal popup
+- Responsive design
+- Deployed using Vercel
 
-## 📷 Screenshots
+---
 
-###  Home Page
-![Home](./screenshots/home.png)
+## 🛠 Tech Stack
 
-### 👤 User Modal
-![Modal](./screenshots/modal.png)
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
+- Git & GitHub
+- Vercel (Deployment)
 
-### 📄 Pagination
-![Pagination](./screenshots/pagination.png)
+---
 
-### 🔍 Searching
-![Searching](./screenshots/searching.png)
+##  Setup Instructions
 
-### 🔃 Sorting
-![Sorting](./screenshots/sorting.png)
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Ravula-sandhya/React-User-Management-with-API-Integration.git
